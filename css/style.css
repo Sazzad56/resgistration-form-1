@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.registration-form{
+	background: linear-gradient(60deg,#28527a,#fbeeac);
+	height: 100vh;
+	padding: 100px 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.form-box{
+	width: 40%;
+    background: white;
+    margin: 0px auto;
+    padding: 55px;
+    border-radius: 5px;
+}
+.form-box h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+form input{
+	display: block;
+	width: 90%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+form{
+	margin: 30px;
+}
+.last{
+	display: inline-block;
+	width: auto;
+}
+.form-button{
+	margin: 15px 110px;
+    background: #fbeeac;
+    border: none;
+    border-radius: 2px;
+    width: 50%;
+    transition: 0.5s
+}
+.form-button:hover{
+	transform: translateY(5px);
+	transition: 0.5s;
+	cursor: pointer;
+	outline: none;
+}
+h4{
+	padding-top: 30px;
+    text-align: center
+}
+.form-control:focus{
+    border: 2px solid #cec6c6;
+}
+.form-control{
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #cec6c6;
+}
+.form-control::placeholder{
+	color: red;
+}
